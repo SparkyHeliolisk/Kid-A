@@ -11,19 +11,19 @@ exports.sslKey = '';
 exports.sslCa = '';
 
 // Username and password to use on PS.
-exports.username = '';
+exports.username = 'A Very Bad Bot';
 exports.password = '';
 
 // Rooms to hardcoded join and avatar to choose. The bot can be /invited to other rooms, except for blacklisted rooms.
-exports.rooms = ['dev'];
+exports.rooms = ['dev','botdev','groupchat-waverb-debatingsociety'];
 exports.blacklistedRooms = [];
 exports.avatar = 246;
 
 // Symbol to use for commands.
-exports.commandSymbol = '.';
+exports.commandSymbol = '*';
 
 // Names of  the administrators of the bot.
-exports.admins = new Set();
+exports.admins = new Set('sparkyheliolisk');
 
 // Blacklisted plugins. Accepts filenames.
 exports.blacklistedPlugins = new Set();
